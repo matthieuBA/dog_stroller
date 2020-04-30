@@ -1,5 +1,15 @@
 # README
 
+To initialize a new DataBase run the following command : 
+
+rake db:reset db:migrate
+
+It will delete all bases and regenerate content and database with seed
+
+
+Some examples of database content: 
+
+
 2.5.1 :002 > tp Dogsitter.all
   Dogsitter Load (1.3ms)  SELECT "dogsitters".* FROM "dogsitters"
 ID  | NAME      | CITY_ID | STROLL_ID | CREATED_AT              | UPDATED_AT             
